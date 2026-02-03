@@ -227,7 +227,11 @@ h3 {
 .demo-cta a:hover {
   text-decoration: underline;
 }
-
+.line{
+  font-weight: 550;
+  font-size: larger;
+  color: blue;
+}
 
 /* =====================
    FOOTER (LUXURY)

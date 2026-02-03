@@ -28,6 +28,7 @@ Affordable • Fast • Result-Focused
     <h3>✔ WhatsApp & Call integration</h3>
     <h3>✔ Local business ke liye special design</h3>
     <h3>✔ Direct support (No middleman)</h3>
+    <p className='line'>“10+ local businesses served”</p>
 
 </div>
 
@@ -121,6 +122,7 @@ Affordable • Fast • Result-Focused
       WhatsApp kare
     </a>
   </p>
+  <p>Is type ki website humne banayi hai jisme direct WhatsApp pe order aata hai</p>
 </div>
 {/* ===================================== */}
 
@@ -162,6 +164,10 @@ Affordable • Fast • Result-Focused
       <a href="mailto:harshitkasera01@gmail.com">
         harshitkasera01@gmail.com
       </a>
+    </p>
+
+    <p>
+     📍 Location: Shajapur (M.P.)
     </p>
   </div>
 </footer>
