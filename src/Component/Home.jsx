@@ -22,7 +22,6 @@ Affordable • Fast • Result-Focused
 
 <div className='sec' id='2'>
     <h2>💡 WHY CHOOSE US</h2>
-    <h3>✔ ₹6,999 se website start</h3>
     <h3>✔ 3–5 din me delivery</h3>
     <h3>✔ Mobile + Laptop friendly</h3>
     <h3>✔ WhatsApp & Call integration</h3>
@@ -41,7 +40,7 @@ Affordable • Fast • Result-Focused
 </div>
 
 <div className='sec' id='4'>
-    <h2>🔹 EXTENDED WEBSITE – ₹8,000</h2>
+    <h2>🔹 EXTENDED WEBSITE</h2>
     <h3>✔ 4–6 pages</h3>
     <h3>✔ Gallery + navigation</h3>
     <h3>✔ WhatsApp enquiry</h3>
@@ -49,7 +48,7 @@ Affordable • Fast • Result-Focused
 </div>
 
 <div className='sec' id='5'>
-  <h2>🔹 ⭐ PREMIUM WEBSITE – ₹10,000</h2>
+  <h2>🔹 ⭐ PREMIUM WEBSITE</h2>
   <h3>✔ Premium design</h3>
   <h3>✔ Call + WhatsApp buttons</h3>
   <h3>✔ Product / Vehicle gallery</h3>
