@@ -1,19 +1,24 @@
-import React from 'react'
+import React, { useState } from "react";
 
 const Navbar = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
+
   return (
-    <div className='navbar'>
-      <a href='#1'>Home</a>
-      <a href='#9'>Demo</a>
+    <nav className="navbar">
+      <div className="logo">HK Digital</div>
 
-      <a href='#2'>Trust</a>
-      <a href='#3'>Service</a>
-      <a href='#4'>Extends</a>
-      <a href='#6'>Decision</a>
-      <a href='#7'>Work</a>
-      <a href='#8'>Contact</a>
-    </div>
-  )
-}
+      <div className={`nav-links ${menuOpen ? "active" : ""}`}>
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#demo">Demo</a>
+        <a href="#contact">Contact</a>
+      </div>
 
-export default Navbar
+      <div className="menu-toggle" onClick={() => setMenuOpen(!menuOpen)}>
+        ☰
+      </div>
+    </nav>
+  );
+};
+
+export default Navbar;

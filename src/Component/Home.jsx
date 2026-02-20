@@ -1,179 +1,196 @@
-import React from 'react'
+import React from "react";
 
 const Home = () => {
   return (
     <div>
-        <div className='fir' id='1'>
-      <h1>Local Businesses ke liye Professional Websites</h1>
-      <p>Restaurant | Showroom | Shop | Service Business
-Affordable • Fast • Result-Focused
-</p>
-<a
-  href="https://wa.me/919302252353"
-  target="_blank"
-  rel="noopener noreferrer"
->
-  <button>🟢 WhatsApp pe baat kare</button>
-</a>
-<a href="tel:+919302252353">
-  <button>📞 Call Now</button>
-</a>
-</div>
 
-<div className='sec' id='2'>
-    <h2>💡 WHY CHOOSE US</h2>
-    <h3>✔ 3–5 din me delivery</h3>
-    <h3>✔ Mobile + Laptop friendly</h3>
-    <h3>✔ WhatsApp & Call integration</h3>
-    <h3>✔ Local business ke liye special design</h3>
-    <h3>✔ Direct support (No middleman)</h3>
-    <p className='line'>“10+ local businesses served”</p>
+      {/* HERO */}
+      <section className="hero" id="home">
+        <h1>
+          We Help Clinics & Local Businesses Generate <br />
+          30–100 Qualified Leads Per Month
+        </h1>
+        <p>
+          Premium Websites + WhatsApp Funnels + Meta Ads System
+        </p>
 
-</div>
+        <div className="hero-buttons">
+          <a
+            href="https://wa.me/919302252353"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button className="primary">Book Free 15 Min Growth Call</button>
+          </a>
 
-<div className='sec' id='3'>
-    <h2>OUR SERVICES </h2>
-    <h3>✔ 1–3 pages</h3>
-    <h3>✔ Call & WhatsApp button</h3>
-    <h3>✔ Mobile friendly</h3>
-    <h3>✔ Basic gallery</h3>
-</div>
+          <a href="#services">
+            <button className="secondary">View Services</button>
+          </a>
+        </div>
+      </section>
 
-<div className='sec' id='4'>
-    <h2>🔹 EXTENDED WEBSITE</h2>
-    <h3>✔ 4–6 pages</h3>
-    <h3>✔ Gallery + navigation</h3>
-    <h3>✔ WhatsApp enquiry</h3>
-    <h3>✔ Better design & layout</h3>
-</div>
+      {/* TRUST SECTION */}
+      <section className="trust">
+        <h2>Why Choose Us?</h2>
+        <div className="card-grid">
+          <div className="card">
+            <h3>7 Day Delivery</h3>
+            <p>Fast turnaround without compromising quality.</p>
+          </div>
 
-<div className='sec' id='5'>
-  <h2>🔹 ⭐ PREMIUM WEBSITE</h2>
-  <h3>✔ Premium design</h3>
-  <h3>✔ Call + WhatsApp buttons</h3>
-  <h3>✔ Product / Vehicle gallery</h3>
-  <h3>✔ Enquiry form → WhatsApp message</h3>
-  <h3>✔ Fast loading</h3>
-  <h3>✔ Professional brand look</h3>
-</div>
+          <div className="card">
+            <h3>Lead Focused Design</h3>
+            <p>Every website is built to generate inquiries.</p>
+          </div>
 
-<div className='sec' id='6'>
-    <h2>“Live demo dekhkar decision lena easy ho jaata hai”</h2>
-    <h3>•	Sample Showroom Website</h3>
-    <h3>•	Sample Restaurant Website</h3>
-    <h3>•	Sample Service Business Website</h3>
-    <h3>🟢 Demo dekhne ke liye WhatsApp kare</h3>
-</div>
+          <div className="card">
+            <h3>WhatsApp Integration</h3>
+            <p>Instant inquiry capture & automation setup.</p>
+          </div>
 
-{/* =============================== */}
+          <div className="card">
+            <h3>Ongoing Support</h3>
+            <p>We don’t disappear after delivery.</p>
+          </div>
+        </div>
+      </section>
 
-<div className="sec demo" id="9">
-  <h2>🚀 LIVE DEMO WEBSITES</h2>
-  <p className="demo-sub">
-    Pehle demo dekhiye, phir decision lijiye — bilkul transparent process
+      {/* SERVICES */}
+      <section className="services" id="services">
+        <h2>Our Core Services</h2>
+
+        <div className="card-grid">
+          <div className="card">
+            <h3>Website Development</h3>
+            <p>Premium responsive websites with WhatsApp & Call integration.</p>
+          </div>
+
+          <div className="card">
+            <h3>Meta Ads Management</h3>
+            <p>High-intent patient & customer lead generation system.</p>
+          </div>
+
+          <div className="card">
+            <h3>Landing Pages</h3>
+            <p>Conversion-focused pages designed for maximum inquiries.</p>
+          </div>
+
+          <div className="card">
+            <h3>WhatsApp Lead Funnel</h3>
+            <p>Automated inquiry capture system for better conversions.</p>
+          </div>
+        </div>
+      </section>
+
+      {/* PRICING */}
+      {/* GROWTH PLANS */}
+<section className="pricing">
+  <h2>Custom Growth Plans</h2>
+  <p className="pricing-sub">
+    Every business is different. We create custom growth systems 
+    based on your goals, competition & budget.
   </p>
 
-  <div className="demo-grid">
-    <div className="demo-card">
-      <h3>🍽 Restaurant Website</h3>
-      <p>Menu, gallery, call & WhatsApp integration</p>
-      <a
-        href="https://themewagon.github.io/feane/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <button>View Live Demo</button>
-      </a>
+  <div className="card-grid">
+    <div className="card">
+      <h3>Website Growth System</h3>
+      <p>Premium website + WhatsApp integration + Lead capture setup.</p>
     </div>
 
-    <div className="demo-card">
-      <h3>🚗 Showroom / Vehicle</h3>
-      <p>Product gallery, enquiry button, premium layout</p>
-      <a
-        href="https://themewagon.github.io/stylish/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <button>View Live Demo</button>
-      </a>
+    <div className="card">
+      <h3>Lead Generation System</h3>
+      <p>High-converting landing pages + Meta Ads management.</p>
     </div>
 
-    <div className="demo-card">
-      <h3>🛠 Service Business</h3>
-      <p>Lead focused design, fast loading, mobile first</p>
-      <a
-        href="https://aurora.themewagon.com/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <button>View Live Demo</button>
-      </a>
+    <div className="card">
+      <h3>Complete Clinic Growth</h3>
+      <p>Website + Ads + Funnel automation + Monthly optimization.</p>
     </div>
   </div>
 
-  <p className="demo-cta">
-    🟢 Apna business jaisa demo chahiye?
-    <a
-      href="https://wa.me/919302252353"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      WhatsApp kare
-    </a>
-  </p>
-  <p>Is type ki website humne banayi hai jisme direct WhatsApp pe order aata hai</p>
-</div>
-{/* ===================================== */}
+  <a href="#contact">
+    <button className="primary" style={{ marginTop: "40px" }}>
+      Apply For Free Strategy Call
+    </button>
+  </a>
+</section>
 
-<div className='sec' id='7'>
-    <h2>🔁 WORK PROCESS </h2>
-    <h3>1️⃣ Aap requirement bataye</h3>
-    <h3>2️⃣ Design & layout share hoga</h3>
-    <h3>3️⃣ Approval ke baad development</h3>
-    <h3>4️⃣ Website live + support</h3>
-</div>
-<footer id='8'>
-  <h3 className='left'>👤 ABOUT US</h3>
-  <p>
-    Hum local businesses ke liye website banate hain
-    taaki aapke customers online bhi aap tak pahunch sake.
-  </p>
+      {/* DEMO */}
+      <section className="demo" id="demo">
+        <h2>Live Demo Websites</h2>
 
-  <div>
-    <h3 className='right'>📞 CONTACT</h3>
+        <div className="card-grid">
+          <div className="card">
+            <h3>Restaurant Demo</h3>
+            <a
+              href="https://themewagon.github.io/feane/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button>View Demo</button>
+            </a>
+          </div>
 
-    <p>
-      📱 Phone:
-      <a href="tel:+919302252353"> 9302252353</a>
-    </p>
+          <div className="card">
+            <h3>Showroom Demo</h3>
+            <a
+              href="https://themewagon.github.io/stylish/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button>View Demo</button>
+            </a>
+          </div>
 
-    <p>
-      🟢 WhatsApp:
-      <a
-        href="https://wa.me/919302252353"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        9302252353
-      </a>
-    </p>
+          <div className="card">
+            <h3>Clinic Landing Page</h3>
+            <a
+              href="https://wa.me/919302252353"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button>Demo on WhatsApp</button>
+            </a>
+          </div>
+        </div>
+      </section>
 
-    <p>
-      📧 Email:
-      <a href="mailto:harshitkasera01@gmail.com">
-        harshitkasera01@gmail.com
-      </a>
-    </p>
+      {/* CONTACT */}
+      <section className="contact" id="contact">
+        <h2>Let’s Grow Your Business</h2>
 
-    <p>
-     📍 Location: Shajapur (M.P.)
-    </p>
-  </div>
-</footer>
+        <form
+          action="https://formsubmit.co/harshitkasera01@gmail.com"
+          method="POST"
+          className="form"
+        >
+          <input type="text" name="name" placeholder="Your Name" required />
+          <input type="email" name="email" placeholder="Your Email" required />
+          <input type="tel" name="phone" placeholder="Phone Number" required />
 
+          <select name="budget" required>
+            <option value="">Select Project Budget</option>
+            <option>₹15k – ₹25k</option>
+            <option>₹25k – ₹50k</option>
+            <option>₹50k+</option>
+          </select>
+
+          <textarea
+            name="message"
+            placeholder="Tell us about your business"
+          ></textarea>
+
+          <input type="hidden" name="_captcha" value="false" />
+          <input type="hidden" name="_subject" value="New Website Inquiry" />
+
+          <button className="btn" type="submit">
+            Apply For Free Strategy Call
+          </button>
+        </form>
+      </section>
 
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;

@@ -1,13 +1,17 @@
-import React from 'react'
-import Home from './Component/Home'
-import Navbar from './Component/Navbar'
-const App = () => {
+import React from "react";
+import Navbar from "./Component/Navbar";
+import Home from "./Component/Home";
+import Footer from "./Component/Footer";
+import "./App.css";
+
+function App() {
   return (
-    <div>
-      <Navbar/>
-      <Home/>
-    </div>
-  )
+    <>
+      <Navbar />
+      <Home />
+      <Footer />
+    </>
+  );
 }
 
-export default App
+export default App;
