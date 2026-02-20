@@ -160,33 +160,36 @@ const Home = () => {
         <h2>Let’s Grow Your Business</h2>
 
         <form
-          action="https://formsubmit.co/harshitkasera01@gmail.com"
-          method="POST"
-          className="form"
-        >
-          <input type="text" name="name" placeholder="Your Name" required />
-          <input type="email" name="email" placeholder="Your Email" required />
-          <input type="tel" name="phone" placeholder="Phone Number" required />
+  action="https://api.web3forms.com/submit"
+  method="POST"
+  className="form"
+>
+  {/* 🔐 Your Access Key */}
+  <input type="hidden" name="access_key" value="75784ebb-ef32-4f81-8842-cc3fa717c552" />
 
-          <select name="budget" required>
-            <option value="">Select Project Budget</option>
-            <option>₹15k – ₹25k</option>
-            <option>₹25k – ₹50k</option>
-            <option>₹50k+</option>
-          </select>
+  <input type="text" name="name" placeholder="Your Name" required />
+  <input type="email" name="email" placeholder="Your Email" required />
+  <input type="tel" name="phone" placeholder="Phone Number" required />
 
-          <textarea
-            name="message"
-            placeholder="Tell us about your business"
-          ></textarea>
+  <select name="budget" required>
+    <option value="">Select Project Budget</option>
+    <option>₹15k – ₹25k</option>
+    <option>₹25k – ₹50k</option>
+    <option>₹50k+</option>
+  </select>
 
-          <input type="hidden" name="_captcha" value="false" />
-          <input type="hidden" name="_subject" value="New Website Inquiry" />
+  <textarea
+    name="message"
+    placeholder="Tell us about your business"
+  ></textarea>
 
-          <button className="btn" type="submit">
-            Apply For Free Strategy Call
-          </button>
-        </form>
+  <input type="hidden" name="subject" value="New Strategy Call Request" />
+  <input type="hidden" name="from_name" value="HK Digital Website" />
+
+  <button className="btn" type="submit">
+    Apply For Free Strategy Call
+  </button>
+</form>
       </section>
 
     </div>
